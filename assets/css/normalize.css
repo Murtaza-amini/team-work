@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+header,section, nav, ul,figure, aside,footer,div{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --black:#000;
+    --white:#fff;
+    --blue:#0054a5;
+    --gray:#656666;
+
+}
