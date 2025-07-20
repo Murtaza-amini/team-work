@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <title>Document</title><link rel="stylesheet" href="./assets/css/normalize.css"> -->
+    <link rel="stylesheet" href="./assets/css/app.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-pVt+NlgkK2J0dp3yjp2Ge2CJpq9JkPm4qGZ0XfJQh0K3qvUQl1L98OdDw0+DHU8Y5P9vV9fXWqDy+u3R9e0Q9Q=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <section class="w-full bg-gray-100 py-4 min-h-screen">
+      <div class="w-[60%] h-[auto] mx-[auto] my-4">
+        <h3
+          class="font-bold text-2xl d-block w-[100%] capitalize py-4 text-center"
+        >
+          style guide.
+        </h3>
+        <p
+          class="w-[50%] text-center font-bold mx-[auto] my-4 tracking-widest leading-loose"
+        >
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi esse
+          in hic, maiores provident nostrum, atque voluptatibus molestias fuga
+          ipsa nisi, rem nesciunt accusantium. Voluptates quae dolorem quod
+          magni delectus!
+        </p>
+      </div>
+      <div class="flex flex-wrap w-[90%] my-[80px] mx-[auto] py-4">
+        <div class="w-[50%] p-4">
+          <h3 class="text-2xl font-bold">Paragraph and Image</h3>
+          <p class="text-gray-800 tracking-wide my-4">
+            <a href="#"
+              ><img
+                src="./assets/images/sample-image.jpg"
+                alt=" sample-image"
+                class="w-[120px] float-left p-2 mr-3"
+            /></a>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+            libero. Suspendisse bibendum.Cras id urna. Morbi tincidunt, orci ac
+            convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo
+            tempus leo. Donec mattis, purus nec placerat bibendum, dui pede
+            condimentum odio, ac blandit ante orci ut diam. Cras fringilla
+            magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus
+            eleifend magna, eget fringilla velit magna id neque posuere nunc
+            justo tempus leo.
+          </p>
+          <p class="text-gray-800 mt-4">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+            libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac
+            convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo
+            tempus leo. Donec mattis, purus nec placerat bibendum, dui pede
+            condimentumodio, ac blandit ante orci ut diam.
+          </p>
+          <span
+            class="flex items-center text-gray-800 my-4 gap-1 tracking-wide flex-wrap"
+          >
+            A <a href="#" class="text-blue-700 underlined">link</a>,
+            <abbr title="ABBREBIATION" class="text-sm py-1 font-bold"
+              >ABBREBIATION</abbr
+            >, <strong>strong text</strong>, <em>em text</em>,
+            <del>deleted text</del>, and <mark>this is mark text</mark>,
+            <code class="bg-gray-200 border p-[2px] rounded border-gray-400"
+              >.code</code
+            >
+          </span>
+        </div>
+
+        <div class="w-[50%] mx-auto p-6">
+          <h3 class="text-3xl font-bold mb-4">Drop Caps</h3>
+          <p class="text-lg text-gray-800 leading-relaxed">
+            <span
+              class="float-left text-5xl leading-none font-black mr-3 text-black"
+              >F</span
+            >
+            ar far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts. Separated they
+            live in Bookmarksgrove right at the coast of the Semantics, a large
+            language ocean. A small river named Duden flows by their place and
+            supplies it with the necessary regelialia. Morbi tincidunt, orci ac
+            convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo
+            tempus leo. Donec mattis, purus nec placerat bibendum, dui pede
+            condimentum odio, ac blandit ante orci ut diam. Cras fringilla
+            magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus
+            eleifend magna, eget fringilla velit magna id neque.
+          </p>
+          <div class="my-4">
+            <span class="d-block w-[100%] font-black text-2xl"
+              >Small Print</span
+            >
+            <p class="text-gray-800 my-3 tracking-wide">
+              Buy one widget, get one free!
+              <small
+                >(While supplies last. Offer expires on the vernal equinox. Not
+                valid in Ohio)</small
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="w-[50%] mb-5">
+          <h3 class="capitalize text-3xl mb-9 font-bold">pull quotes</h3>
+          <article class="flex mt-4">
+            <span class="text-7xl leading-9 mr-4 text-gray-500"> ''</span>
+            <p class="w-[80%] text-2xl font-bold leading-9">
+              It is a paradisematic country, in which roasted parts of sentences
+              fly into your mouth. Even the all-powerful Pointing has no control
+              about the blind texts it is an almost unorthographic life One day
+              however a small line of blind text by the name of Lorem Ipsum
+              decided to leave for the far World of Grammar.
+            </p>
+            <span
+              class="text-7xl leading-9 m-2 flex ml-5 -mb-5 items-end text-gray-500"
+            >
+              ''</span
+            >
+          </article>
+        </div>
+
+        <div class="w-[50%] mb-5">
+          <h3 class="capitalize text-3xl mb-9 font-bold">blog quotes</h3>
+          <article class="flex mt-4">
+            <span class="text-7xl leading-9 mr-4 text-gray-500"> ''</span>
+            <p class="w-[80%] text-2xl mb-9 font-bold leading-9">
+              Your work is going to fill a large part of your life, and the only
+              way to be truly satisfied is to do what you believe is great work.
+              And the only way to do great work is to love what you do. If you
+              haven't found it yet, keep looking. Don't settle. As with all
+              matters of the heart, you'll know when you find it.
+            </p>
+          </article>
+          <span class="d-block w-full text-gray-500"> - Steve Jobs</span>
+          <div class="w-full my-8 flex h-5">
+            <span class="text-7xl leading-9 mr-4 text-gray-500"> ''</span>
+            <p class="text-2xl font-bold items-center">
+              Good design is as little design as possible.
+            </p>
+          </div>
+          <span class="d-block w-full text-gray-500"> - Dieter Ram</span>
+        </div>
+        <div class="w-[50%]">
+          <h3 class="capitalize font-bold text-3xl my-5">example lists</h3>
+          <ol class="text-lg text-gray-600 ml-8 py-5 list-decimal">
+            <li>Here is an example</li>
+            <li>of an ordered list.</li>
+            <li>
+              A parent list item.
+              <ul class="ml-5 list-disc">
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+              </ul>
+            </li>
+            <li>A list item.</li>
+          </ol>
+          <ul
+            class="text-lg text-gray-600 ml-8 list-disc marker:text-blue-700 marker:text-2xl"
+          >
+            <li>Here is an example</li>
+            <li>of an unordered list</li>
+          </ul>
+          <h3 class="capitalize text-3xl font-bold my-7">definiteion lists</h3>
+          <dl>
+            <dt class="my-3 font-bold text-xl">
+              a) Multi-line Definiteions (default)
+            </dt>
+            <dt class="text-blue-800 text-lg font-bold">This is a term</dt>
+            <dd class="text-gray-500 ml-4 my-3 text-lg">
+              this is the definiteion of the term, which both live in a
+              <code class="bg-gray-200 px-2 py-1 border rounded">dl</code>.
+            </dd>
+            <dt class="text-blue-800 text-lg font-bold">Another Term</dt>
+            <dd class="text-gray-500 ml-4 my-3 text-lg">
+              And it gets a definiteion too, which is this line
+            </dd>
+            <dd class="text-gray-500 ml-4 my-3 text-lg">
+              This is a 2<sup>nd</sup> definiteion for a single term. A
+              <code class="bg-gray-200 px-2 py-1 border rounded">dt</code> may
+              be followed by multiple
+              <code class="bg-gray-200 px-2 py-1 border rounded">dd</code> s.
+            </dd>
+          </dl>
+        </div>
+        <div class="w-[50%] ">
+          <h3 class="capitalize font-bold text-3xl my-6">buttons</h3>
+          <div class="w-full">
+            <button
+              class="btn btn-neutral w-full py-9 tracking-widest text-lg hover:bg-blue-800 duration-200 border-0 my-2"
+            >
+              Primary Button
+            </button>
+            <button
+              class="btn btn-neutral w-full py-9 tracking-widest bg-gray-300 text-lg hover:bg-gray-400 text-black duration-200 border-0 my-2"
+            >
+              Default Button
+            </button>
+            <button
+              class="btn btn-neutral btn-outline w-full py-9 my-2 tracking-widest text-lg border-2 hover:text-blue-700 hover:border-blue-700 hover:bg-transparent"
+            >
+              Stroke Button
+            </button>
+            <h3 class="capitalize text-3xl font-bold mb-5 mt-14">code block</h3>
+            <code
+              class="block w-full text-lg bg-gray-200 whitespace-nowrap m-[0_0.2rem] p-[4.2rem_4.6rem]"
+            >
+              code &#123;<br />
+              &nbsp;&nbsp;font-size: 1.4rem;<br />
+              &nbsp;&nbsp;margin: 0 .2rem;<br />
+              &nbsp;&nbsp;padding: .2rem .6rem;<br />
+              &nbsp;&nbsp;white-space: nowrap;<br />
+              &nbsp;&nbsp;background: #f1f1f1;<br />
+              &nbsp;&nbsp;border: 1px solid #e1e1e1;<br />
+              &nbsp;&nbsp;border-radius: 3px;<br />
+              &#125;
+            </code>
+          </div>
+        </div>
+        <div class="w-[50%]">
+          <h1 class="text-7xl my-5 font-bold">H1 Heading</h1>
+          <p class="text-gray-600 text-lg tracking-wide my-4">
+            Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. Voluptas odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut qui accusamus praesentium.
+          </p>
+          <h2 class="text-6xl my-5 font-bold">H2 Heading</h2>
+          <p class="text-gray-600 text-lg tracking-wide my-4">
+            Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. Voluptas odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut qui accusamus praesentium.
+          </p>
+          <h3 class="text-5xl my-5 font-bold">H3 Heading</h3>
+          <p class="text-gray-600 text-lg tracking-wide my-4">
+            Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. Voluptas odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut qui accusamus praesentium.
+          </p>
+        </div>
+         <div class="w-[50%] ">
+          <h4 class="text-4xl my-5 font-bold">H4 Heading</h4>
+          <p class="text-gray-600 text-lg tracking-wide my-4">
+            Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. Voluptas odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut qui accusamus praesentium.
+          </p>
+          <h5 class="text-3xl my-5 font-bold">H5 Heading</h5>
+          <p class="text-gray-600 text-lg tracking-wide my-4">
+            Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. Voluptas odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut qui accusamus praesentium.
+          </p>
+          <h6 class="text-2xl my-5 font-bold">H6 Heading</h6>
+          <p class="text-gray-600 text-lg tracking-wide my-4">
+            Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. Voluptas odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut qui accusamus praesentium.
+          </p>
+        </div>
+        <div class="w-full my-6">
+          <h3 class="capitalize text-3xl font-bold my-5">stats tabs</h3>
+          <ul class="ml-6 flex ">
+            <li class="px-8 py-4 flex flex-col items-center font-black text-2xl gap-4 border-r border-gray-400 hover:text-blue-800 duration-200 cursor-pointer">1,234 <span class="font-light text-lg text-gray-600">Sasuke</span></li>
+            <li class="px-8 py-4 flex flex-col items-center font-black text-2xl gap-4 border-r border-gray-400 hover:text-blue-800 duration-200 cursor-pointer">567 <span class="font-light text-lg text-gray-600">Hinata</span></li>
+           <li class="px-8 py-4 flex flex-col items-center font-black text-2xl gap-4 border-r border-gray-400 hover:text-blue-800 duration-200 cursor-pointer">23,456 <span class="font-light text-lg text-gray-600 ">Naruto</span></li>
+            <li class="px-8 py-4 flex flex-col items-center font-black  cursor-pointer text-2xl gap-4 border-r border-gray-400">456 <span class="font-light text-lg text-gray-600 hover:text-blue-800 duration-200">Kiba</span></li>
+            <li class="px-8 py-4 flex flex-col items-center font-black text-2xl gap-4 hover:text-blue-800 duration-200 cursor-pointer">26 <span class="font-light text-lg text-gray-600">Sakura</span></li>
+        </div>
+        <div class="w-[50%] p-4">
+          <h3 class="capitalize text-3xl my-6">responsive image</h3>
+          <img src="./assets/images/wheel-500.jpg" alt="wheel" class="w-full">
+        </div>
+        <div class="w-[50%] p-4 ">
+          <h3 class="capitalize text-3xl my-6">responsive image</h3>
+          <video src="./assets/video/210eb0c5f248483895538db40dacfe12.mp4" controls alt="wheel" class="w-full">
+        </div>
+        <div class="w-full mt-9 ">
+          <h3 class="capitalize text-3xl font-bold my-5">tables</h3>
+          <p class="ml-3 my-4 text-gray-600">Be sure to use properly formed table markup width <span class="text-black bg-gray-300 p-1 rounded ">&lt;thead&gt;</span>, <span class="text-black bg-gray-300 p-1 rounded ">&lt;tbody&gt;</span> and <span class="text-black bg-gray-300 p-1 rounded ">&lt;table&gt;</span></p>
+          <table class="w-full text-center my-8">
+            <tr class="font-black border-b border-gray-400 ">
+              <th class="py-7">
+               <td>Name</td>
+               <td>Age</td>
+               <td>Gender</td>
+               <td>Location</td>
+             </th>
+          </tr>
+          <tr class="text-gray-600 border-b border-gray-400 ">
+              <th class="py-7">
+               <td>Naruto Uzamaki</td>
+               <td>16</td>
+               <td>Male</td>
+               <td>Konoha</td>
+             </th>
+          </tr>
+          <tr class="text-gray-600 border-b border-gray-400 ">
+              <th class="py-7">
+               <td>Sakura Haruno</td>
+               <td>16</td>
+               <td>Female</td>
+               <td>Konoha</td>
+             </th>
+          </tr>
+        </table>
+        </div>
+        <div class="w-[50%]  my-6">
+          <h3 class="capitalize text-3xl font-bold my-9">form styles</h3>
+          <form action="#" class="px-5">
+            <div class="w-full flex flex-col gap-3 mt-3">
+              <label for="email" class="w-full font-bold">Your email</label>
+              <input type="email" placeholder="test@mailbox.com" class="px-4 py-2.5 border-0 border-b-2 outline-none hover:border-blue-700 duration-200">
+            </div>
+            <div class="w-full flex flex-col gap-3 mt-9">
+              <label for="email" class="w-full font-bold">Reason for Connection</label>
+              <select class="px-4 py-2.5 border-0 border-b-2 outline-none hover:border-blue-700 duration-200">
+                <option value=""></option>
+                <option value="Question">Question</option>
+                <option value="Report">Report</option>
+                <option value="others">Others</option>
+              </select>
+            </div>
+            <div class="w-full flex flex-col gap-3 mt-9">
+              <label for="email" class="w-full font-bold">Message</label>
+              <textarea class="px-4 py-2.5 border-0 border-b-2 outline-none hover:border-blue-700 duration-200" rows="10">
+              </textarea>
+            </div>
+            <div class="w-full flex gap-3 mt-9">
+              <input type="checkbox">
+              <label for="email" class="w-full font-bold">Send a copy to yourself</label>
+            </div>
+            <button class="uppercase w-full bg-black text-white my-5 py-4 tracking-widest hover:bg-blue-800 duration-200">submit</button>
+          </form>
+        </div>
+        <div class="w-[50%] mt-7 ">
+          <h3 class="capitalize text-3xl font-bold my-9">alert boxes</h3>
+          <div class="w-full py-12 bg-pink-200 rounded flex justify-between p-4 items-start my-4"><p class="text-pink-900 font-bold -translate-y-6 ">Error Message. Your Message Goes Here.</p><span class="font-bold text-2xl text-pink-900 -translate-y-6 " style="transform: rotate(45deg);">+</span></div>
+          <div class="w-full py-12 bg-green-200 my-4 rounded flex justify-between p-4 items-start "><p class="text-green-900 font-bold -translate-y-6 ">Success Message. Your Message Goes Here.</p><span class="font-bold text-2xl text-green-900 -translate-y-6 " style="transform: rotate(45deg);">+</span></div>
+          <div class="w-full py-12 bg-blue-200 my-4 rounded flex justify-between p-4 items-start "><p class="text-blue-900 font-bold -translate-y-6 ">Info Message. Your Message Goes Here.</p><span class="font-bold text-2xl text-blue-900 -translate-y-6 " style="transform: rotate(45deg);">+</span></div>
+          <div class="w-full py-12 bg-orange-200 my-4 rounded flex justify-between p-4 items-start "><p class="text-orange-900 font-bold -translate-y-6 ">Error Message. Your Message Goes Here.</p><span class="font-bold text-2xl text-orange-900 -translate-y-6 " style="transform: rotate(45deg);">+</span></div>
+        </div>
+      </div>
+    </section>
+    <section  class="w-full my-5">
+      <div class="w-[90%] mx-auto border flex py-4">
+        <div class="w-[65%] border py-5 px-5">
+          <h3 class="capitalize text-3xl font-bold my-4">Popular Posts</h3>
+
+        </div>
+        <div class="w-[35%] border py-5">
+          <h3 class="capitalize text-3xl font-bold my-4">About Philosophy</h3>
+          <p class="text-gray-600 tracking-widest px-2 my-4">
+            Donec sollicitudin molestie malesuada. Nulla quis lorem ut libero malesuada feugiat. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
+          </p>
+          <ul>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

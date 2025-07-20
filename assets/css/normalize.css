@@ -1,0 +1,10 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer, aside, section, a,span,  ul, li, div, article{
+    display: flex;
+    flex-wrap: wrap;
+} */
